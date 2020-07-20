@@ -16,4 +16,8 @@ def get():
         print ("Assertion Passed")
     else:
         print("Assertion Failed")
+
+    abc = response.json()
+    print(abc['data'])
+
 get()
